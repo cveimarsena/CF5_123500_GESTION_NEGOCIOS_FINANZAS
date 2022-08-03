@@ -19,7 +19,7 @@
       .col-md-7.col-10.order-md-1.order-2
         .bloque-texto-b.color-acento-contenido.bloque01.p-4
           .bloque-texto-b__texto(data-aos="fade-right")
-            p.mb-0 p Como se ha planteado en anteriores apartados de este componente, antes de embarcarse en este viaje de la evaluación financiera y social es necesario definir el objetivo de estas para tener claro el o los criterios de evaluación, anotando que ambas tienen marcadas diferencias, pero siempre tendrá mayor relevancia la alternativa que se enmarque en la realidad económica e institucional de una nación de acuerdo con las ventajas y desventajas cualitativas y cuantitativas que impliquen la designación de recursos.
+            p.mb-0 Como se ha planteado en anteriores apartados de este componente, antes de embarcarse en este viaje de la evaluación financiera y social es necesario definir el objetivo de estas para tener claro el o los criterios de evaluación, anotando que ambas tienen marcadas diferencias, pero siempre tendrá mayor relevancia la alternativa que se enmarque en la realidad económica e institucional de una nación de acuerdo con las ventajas y desventajas cualitativas y cuantitativas que impliquen la designación de recursos.
       .col-md-3.col-6.order-md-2.order-1.mb-md-0.mb-4
         figure.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/tema3/img02.png')
@@ -191,15 +191,15 @@
             ol.lista-ol--cuadro
               li 
                 .lista-ol--cuadro__vineta
-                  span 01
-                | Ingresos Sustitución de activos sin cambios en los niveles de operación ni de ingresos.
+                  span a
+                | Sustitución de activos sin cambios en los niveles de operación ni de ingresos.
               li 
                 .lista-ol--cuadro__vineta
-                  span 02
-                |  Sustitución de activos con modificaciones en la productividad, ventas e ingresos.
+                  span b
+                | Sustitución de activos con modificaciones en la productividad, ventas e ingresos.
               li 
                 .lista-ol--cuadro__vineta
-                  span 03
+                  span c
                 | Requerida sustitución de activos con o sin cambio en el nivel operativo.
 
     p.mt-5 Además de relacionar lo que representa:
@@ -628,6 +628,33 @@
         td(style="background-color: #F6F6F6;").text-end 40.000.000,00
         td(style="background-color: #F6F6F6;").text-end -
         td(style="background-color: #F6F6F6;").text-end -
+      tr
+        td.text-center(style="background-color: #3AE3FE;") -
+        td Amortización de la obligación
+        td.text-end 
+        td.text-end -6.761.077,31
+        td.text-end -8.574.398,25
+        td.text-end -10.874.051,85
+        td.text-end -13.790.472,59
+        td.text-end -
+      tr
+        td(style="background-color: #3AE3FE;").text-center -
+        td(style="background-color: #F6F6F6;") Valor de desecho
+        td(style="background-color: #F6F6F6;")
+        td(style="background-color: #F6F6F6;") 
+        td(style="background-color: #F6F6F6;") 
+        td(style="background-color: #F6F6F6;")
+        td(style="background-color: #F6F6F6;")
+        td(style="background-color: #F6F6F6;").text-end 0,00
+      tr
+        td.text-center(style="background-color: #3AE3FE;") =
+        td Flujo de caja
+        td.text-end 
+        td.text-end -14.989.327,31
+        td.text-end -14.989.327,32
+        td.text-end -66.989.327,31
+        td.text-end 30.006.172,66
+        td.text-end 47.495.250,00
 
     SlyderA.mb-4(tipo="b")
       .row.justify-content-center

@@ -11,7 +11,7 @@
       .col-lg-3.col-6.order-lg-1.order-2(data-aos="fade-right")
         .BG10.p-4.mb-4
           h4 Toma de decisiones
-          p  Para que el personal en el área de contabilidad y finanzas domine estas técnicas, de manera que a través de su uso potencien los recursos de la organización a través de decisiones acertadas y proactivas que conduzcan a la toma de decisiones que aporten a generar valor al capital.
+          p  A fin de que el personal en el área de contabilidad y finanzas domine estas técnicas, de manera que a través de su uso potencien los recursos de la organización a través de decisiones acertadas y proactivas que conduzcan a la toma de decisiones que aporten a generar valor al capital.
         .BG11.p-4
           h4 Análisis financiero
           p Esta ciencia aporta al análisis financiero, al permitir determinar el costo de una decisión de financiación, determinar la rentabilidad a recibir en un lapso por una inversión, definir una apropiada política de descuento orientada a los clientes.
@@ -38,7 +38,7 @@
       .col-md-10
         .bloque-texto-b.color-acento-botones.bloque01.p-4
           .bloque-texto-b__texto(data-aos="fade-right")
-            p Dado lo anterior se recibe, entonces, como beneficio un valor adicional, lo que implica que el dinero en mención es el capital, el excedente a recibir es un beneficio y que este surge por causa de la tasa de interés.
+            p Dado lo anterior se recibe, entonces, como beneficio un valor adicional, lo que implica que el dinero en mención es el capital, el excedente a recibir es un beneficio y que este surge por causa de la tasa de interés.<br><br>
             p De aquí la importancia de la matemática financiera en las organizaciones, pues brinda un panorama mucho más cercano a la realidad, a través de técnicas e instrumentos que permiten dilucidar el resultado de una decisión en un futuro. Para ello, se invita a observar los elementos que se integran en las matemáticas financieras para ser aplicadas: 
 
     
@@ -99,8 +99,8 @@
       .col-md-6.col-10.mb-md-0.mb-4
         p El interés debe ser convertido a interés mensual debido a que los periodos se encuentran en meses, 1 año = 12 meses, por lo que en primer lugar se debe convertir la tasa efectiva anual a efectiva mensual:
       .col-md-3.col-4
-        p.text-bold i =( 1 + 0,2771/12)12
-        p.text-bold i = ( 1 + 0,023091666) 12
+        p.text-bold i =( 1 + 0,2771/12)<sup>12</sup>
+        p.text-bold i = ( 1 + 0,023091666)<sup>12</sup>
         p.text-bold i = 1,315
     
     .row.justify-content-center.mb-4
@@ -111,7 +111,7 @@
 
     .row.justify-content-center.p-4.mb-4(data-aos="fade-right")
       .col-md-8.tarjeta.color-acento-botones.p-4
-        p.text-bold.text-center.mb-0 F = P(1 '+ i)n,   F = 12'823.266,57(1 + 0,01315147813)12    = $15.000.000
+        p.text-bold.text-center.mb-0 F = P(1 '+ i)<sup>n</sup>,   F = 12'823.266,57(1 + 0,01315147813)<sup>12</sup>    = $15.000.000
     
     p Se puede comprobar que el cálculo estuvo bien ejecutado, pero es importante aclarar que la cifra en decimales debe tener la totalidad de números para obtener este resultado. Observe con el siguiente video cómo se pueden realizar estas conversiones y su aporte a las finanzas:
 

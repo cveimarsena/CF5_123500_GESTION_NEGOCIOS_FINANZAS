@@ -11,7 +11,7 @@
       .col-md-5.col-10.order-md-1.order-2
         .bloque-texto-b.color-acento-contenido.bloque01.p-4
           .bloque-texto-b__texto(data-aos="fade-right")
-            p Es una técnica de diagnóstico organizacional por medio de la cual se analiza la estructura financiera de la empresa, en otras palabras, el sistema económico que ha construido la empresa a través de su trayectoria y en el medio al que pertenece, a partir de este estudio se puede tomar la empresa en su números y dividirla en partes de acuerdo con su relevancia, para hacer comparaciones, las cuales orientan el quehacer de la organización y direcciona las decisiones a tomar de acuerdo con lo interpretado.
+            p Es una técnica de diagnóstico organizacional por medio de la cual se analiza la estructura financiera de la empresa, en otras palabras, el sistema económico que ha construido la empresa a través de su trayectoria y en el medio al que pertenece, a partir de este estudio se puede tomar la empresa en su números y dividirla en partes de acuerdo con su relevancia, para hacer comparaciones, las cuales orientan el quehacer de la organización y direcciona las decisiones a tomar de acuerdo con lo interpretado.<br><br>
             p.mb-0 Por este medio se conocen las tendencias en cuanto a decisiones financieras si se analizan varios periodos o vigencias, se determina el nivel de liquidez, así como el endeudamiento y el crecimiento del patrimonio en una organización en un periodo determinado, entre otros aspectos.
       .col-md-5.col-8.order-md-2.order-1.mb-md-0.mb-4
         figure.mb-5(data-aos="fade-left")
@@ -43,9 +43,16 @@
       .row.justify-content-center(titulo="Etapa preliminar")
         .col-md-8.order-md-1.order-2
           p Primero debe informarse del tipo de usuario que requiere la información o a quién va dirigida, por esto es necesario conocer el objeto de este análisis, para definirlo se pueden encontrar tres circunstancias:
-          p Bajo el supuesto que existe un problema en la empresa que debe ser solucionado, este debe ser claramente definido para que el analista sepa hacia dónde dirigir sus esfuerzos.
-          p La empresa marcha con excelentes resultados, pero se espera prever cualquier situación de riesgo.
-          p Estudiar si la empresa cuenta con la capacidad de absorber un mayor endeudamiento, este caso se presenta para entidades financieras al estudiar la aprobación de un crédito.
+          ul.lista-ul--color
+            li 
+              i.fas.fa-check-circle
+              | Bajo el supuesto que existe un problema en la empresa que debe ser solucionado, este debe ser claramente definido para que el analista sepa hacia dónde dirigir sus esfuerzos.
+            li 
+              i.fas.fa-check-circle
+              | La empresa marcha con excelentes resultados, pero se espera prever cualquier situación de riesgo.
+            li 
+              i.fas.fa-check-circle
+              | Estudiar si la empresa cuenta con la capacidad de absorber un mayor endeudamiento, este caso se presenta para entidades financieras al estudiar la aprobación de un crédito.
         .col-md-3.col-6.mb-md-0.mb-4.order-md-2.order-1
           img(src='@/assets/curso/tema1/img04.png')
       .row.justify-content-center(titulo="Etapa de estudio formal")
@@ -87,7 +94,8 @@
         thead
           tr
             td(style="font-size: 18px; background-color: #3AE3FE;").text-center.text-bold Saloan 
-              p.text-bold Estado de situación financiera del 1 de enero de 2021 a 31 de diciembre de 2021 valores en pesos ($)
+              p.text-bold.mb-0 Estado de situación financiera del 1 de enero de 2021 a 31 de diciembre de 2021 
+              p.text-bold valores en pesos ($)
     table.mb-4(data-aos="fade-right")
       tr
         th(style="background-color: #F6F6F6;") Activo <br>Circulante
@@ -277,7 +285,8 @@
             thead
               tr
                 td(style="font-size: 18px; background-color: #FEFBF6;").text-center.text-bold Saloan 
-                  p.text-bold Estado de situación financiera del 1 de enero de 2021 a 31 de diciembre de 2021 valores en pesos ($)
+                  p.text-bold Estado de situación financiera del 1 de enero de 2021 a 31 de diciembre de 2021
+                  p.text-bold valores en pesos ($)
         table.mb-4(data-aos="fade-right")
           tr
             th(style="background-color: #F6F6F6;") Ventas
@@ -347,8 +356,8 @@
         thead
           tr
             td(style="font-size: 18px; background-color: #3AE3FE;").text-center.text-bold Saloan 
-              p.text-bold Estado de situación financiera del 1 de enero de 2020 al 31 de diciembre de 2021 Valores en pesos ($)
-
+              p.text-bold Estado de situación financiera del 1 de enero de 2020 al 31 de diciembre de 2021
+              p.text-bold valores en pesos ($)
     table.mb-4(data-aos="fade-right")
       tr
         th
@@ -587,7 +596,7 @@
     p Este indicador permite hallar la disminución o riesgo que tiene la empresa de utilizar los recursos en actividades diferentes a la operación del negocio lo que conduce a arriesgar la operatividad de la empresa y su trayectoria en el tiempo.
 
     separador
-    #t_1_1.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade-right")
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1. Revelaciones
     
     .row.justify-content-center.align-items-center.mb-4
@@ -669,7 +678,24 @@
             h4.mb-0.mx-4 Indicadores de endeudamiento
           p.mx-4 Son instrumentos que permiten evaluar el grado y en qué forma participan los acreedores en la financiación de la organización, y de esta manera conocer el riesgo de los inversionistas y la pertinencia de un endeudamiento. En este rango se encuentran los indicadores de crisis, a saber:
         .col-md-5.col-10.px-0.order-md-2.order-1
-          img(src='@/assets/curso/tema1/img33.png')
+          .titulo-sexto.color-acento-contenido.mb-4
+            h5 Tabla 4
+            span Indicadores de crisis
+          table
+            caption Fuente: (Ortiz, 2018)
+            tr
+              th(style="background-color: #FCC15A;") Indicador
+              th(style="background-color: #FCC15A;") Parámetro
+            tr
+              td(style="background-color: #FFF;") Endeudamiento financiero
+              td.text-center(style="background-color: #FFF;") &lt; 30%
+            tr
+              td(style="background-color: #F6F6F6;") Impacto de la carga financiera
+              td.text-center(style="background-color: #F6F6F6;") &lt; 10%
+            tr
+              td(style="background-color: #FFF;") Cobertura de intereses
+              td.text-center(style="background-color: #FFF;") &#8805; 1 vez
+
       .row.justify-content-center
         .col-md-5.col-10.BG09.p-0.px-0.order-md-1.order-2
           .BG04.p-2.mb-4
