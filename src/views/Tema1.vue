@@ -11,7 +11,7 @@
       .col-md-5.col-10.order-md-1.order-2
         .bloque-texto-b.color-acento-contenido.bloque01.p-4
           .bloque-texto-b__texto(data-aos="fade-right")
-            p Es una técnica de diagnóstico organizacional por medio de la cual se analiza la estructura financiera de la empresa, en otras palabras, el sistema económico que ha construido la empresa a través de su trayectoria y en el medio al que pertenece, a partir de este estudio se puede tomar la empresa en su números y dividirla en partes de acuerdo con su relevancia, para hacer comparaciones, las cuales orientan el quehacer de la organización y direcciona las decisiones a tomar de acuerdo con lo interpretado.<br><br>
+            p Es una técnica de diagnóstico organizacional por medio de la cual se analiza la estructura financiera de la empresa, en otras palabras, el sistema económico que ha construido la empresa a través de su trayectoria y en el medio al que pertenece, a partir de este estudio se puede tomar la empresa y dividirla en partes de acuerdo con su relevancia, para hacer comparaciones, las cuales orientan el quehacer de la organización y direcciona las decisiones a tomar de acuerdo con lo interpretado.<br><br>
             p.mb-0 Por este medio se conocen las tendencias en cuanto a decisiones financieras si se analizan varios periodos o vigencias, se determina el nivel de liquidez, así como el endeudamiento y el crecimiento del patrimonio en una organización en un periodo determinado, entre otros aspectos.
       .col-md-5.col-8.order-md-2.order-1.mb-md-0.mb-4
         figure.mb-5(data-aos="fade-left")
@@ -37,7 +37,7 @@
           img(src='@/assets/curso/tema1/img03.svg')
           figcaption.text-center Nota. Tomada de Calvo (2019).
       
-    p.mb-5 El análisis financiero no tiene un procedimiento predeterminado, este se realiza teniendo cuenta el cálculo de  los valores porcentuales y hallando la variación absoluta y relativa, para utilizar tantos indicadores sea necesario, de esta manera se da a conocer las etapas para un análisis financiero:
+    p.mb-5 El análisis financiero no tiene un procedimiento predeterminado, este se realiza teniendo en cuenta el cálculo de  los valores porcentuales y hallando la variación absoluta y relativa, para utilizar tantos indicadores sea necesario, de esta manera se da a conocer las etapas para un análisis financiero:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="BG02")
       .row.justify-content-center(titulo="Etapa preliminar")
@@ -209,8 +209,8 @@
       .col-md-5.col-10.mb-md-0.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/tema1/img09.png')
       .col-md-7(data-aos="fade-left")
-        p Para realizar la operación o cálculos en el análisis vertical se debe tomar un factor o rubro base. Por ejemplo, para comparar el activo circulante y el no corriente o propiedad, planta y equipo se compara cada valor decir, el valor de $196.500.000 dividido entre el valor total del activo $207.500.000 arrojando un porcentaje de participación de 94,70%, lo que indica que la empresa tiene una política fuerte de inversión en infraestructura para garantizar su actividad económica la cual requiere de una amplia y especializada infraestructura para su desarrollo.
-        p Como se puede apreciar en el estado de situación financiera, se realizó el cálculo para realizar análisis parciales y totales, los cuales de acuerdo con su correspondencia se han sombreado con un color diferente, es así como el activo circulante se encuentra sombreado con color amarillo pero el análisis del activo circulante, junto con el valor del activo fijo y del total del activo, se encuentran con color verde. Se comprueba que el cálculo fue realizado correctamente cuando al sumar los porcentajes de cada rubro su resultado es igual a 1 si se utilizó decimales o a 100% si se convirtió a porcentaje.
+        p Para realizar la operación o cálculos en el análisis vertical se debe tomar un factor o rubro base. Por ejemplo, para comparar el activo circulante y el no corriente o propiedad, planta y equipo se compara cada valor decir, el valor de $196.500.000 dividido entre el valor total del activo $207.500.000 arrojando un porcentaje de participación de 94,70 %, lo que indica que la empresa tiene una política fuerte de inversión en infraestructura para garantizar su actividad económica la cual requiere de una amplia y especializada infraestructura para su desarrollo.
+        p Como se puede apreciar en el estado de situación financiera, se realizó el cálculo para realizar análisis parciales y totales, los cuales de acuerdo con su correspondencia se han sombreado con un color diferente, es así como el activo circulante se encuentra sombreado con color amarillo pero el análisis del activo circulante, junto con el valor del activo fijo y del total del activo, se encuentran con color verde. Se comprueba que el cálculo fue realizado correctamente cuando al sumar los porcentajes de cada rubro su resultado es igual a 1 si se utilizó decimales o a 100 % si se convirtió a porcentaje.
 
     p En el estado de situación financiera de Saloan al aplicar el método de porcientos, conocido como análisis vertical, y se puede concluir lo siguiente:
 
@@ -219,42 +219,42 @@
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4.order-md-1.order-2
             h4 El circulante
-            p Solo ocupa el 5,30% del total del activo.
+            p Solo ocupa el 5,30 % del total del activo.
           .col-md-5.col-8.mb-md-0.mb-4.order-md-2.order-1
             img(src='@/assets/curso/tema1/img10.png')
       .tarjeta.color-acento-botones--borde.p-4(titulo="b) El efectivo")
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4.order-md-1.order-2
             h4 El efectivo
-            p Representa el 45,45% del total del activo circulante por lo cual se puede deducir que la empresa esperaba asumir pronto un pago o realizar una inversión y prefirió que ese valor reposará en activo circulante al finalizar el año.
+            p Representa el 45,45 % del total del activo circulante por lo cual se puede deducir que la empresa esperaba asumir pronto un pago o realizar una inversión y prefirió que ese valor reposara en activo circulante al finalizar el año.
           .col-md-5.col-8.mb-md-0.mb-4.order-md-2.order-1
             img(src='@/assets/curso/tema1/img11.png')
       .tarjeta.color-acento-botones--borde.p-4(titulo="c) Las cuentas")
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4.order-md-1.order-2
             h4 Las cuentas
-            p Por cobrar representan el 31,82% del total de activo corriente o circulante, lo que permite deducir que la empresa maneja una política de ventas a crédito austera, de tal manera que su recuperación sea manejable y pronta.
+            p Por cobrar representan el 31,82 % del total de activo corriente o circulante, lo que permite deducir que la empresa maneja una política de ventas a crédito austera, de tal manera que su recuperación sea manejable y pronta.
           .col-md-5.col-8.mb-md-0.mb-4.order-md-2.order-1
             img(src='@/assets/curso/tema1/img12.png')
       .tarjeta.color-acento-botones--borde.p-4(titulo="d) En inventario")
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4.order-md-1.order-2
             h4 En inventario
-            p La empresa ha destinado el 22,73% del total del activo corriente lo que confirma la política previsiva en inversión de inventarios.
+            p La empresa ha destinado el 22,73 % del total del activo corriente lo que confirma la política previsiva en inversión de inventarios.
           .col-md-5.col-8.mb-md-0.mb-4.order-md-2.order-1
             img(src='@/assets/curso/tema1/img13.png')
       .tarjeta.color-acento-botones--borde.p-4(titulo="e) En activos fijos o propiedad")
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4.order-md-1.order-2
             h4 En activos fijos o propiedad
-            p Planta y equipo los edificios cuentan con 50,89% del total de estos activos lo cual permite deducir que la actividad económica de esta empresa debe requerir de una infraestructura apropiada y especial para su desempeño y seguido del terreno que está representado en 38,68%, lo cual confirma la afirmación realizada.
+            p Planta y equipo los edificios cuentan con 50,89 % del total de estos activos lo cual permite deducir que la actividad económica de esta empresa debe requerir de una infraestructura apropiada y especial para su desempeño y seguido del terreno que está representado en 38,68 %, lo cual confirma la afirmación realizada.
           .col-md-5.col-8.mb-md-0.mb-4.order-md-2.order-1
             img(src='@/assets/curso/tema1/img14.png')
       .tarjeta.color-acento-botones--borde.p-4(titulo="f) El endeudamiento")
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4.order-md-1.order-2
             h4 El endeudamiento
-            p Representa el 55,18% de la sumatoria entre pasivo + patrimonio, esto indica que la empresa debe trabajar en su política de financiación, ya que este es superior al patrimonio de la empresa.
+            p Representa el 55,18 % de la sumatoria entre pasivo + patrimonio, esto indica que la empresa debe trabajar en su política de financiación, ya que este es superior al patrimonio de la empresa.
           .col-md-5.col-8.mb-md-0.mb-4.order-md-2.order-1
             img(src='@/assets/curso/tema1/img15.png')
       .tarjeta.color-acento-botones--borde.p-4(titulo="g) Sin acceder a más información")
@@ -268,7 +268,7 @@
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4.order-md-1.order-2
             h4 Se puede observar que la utilidad del ejercicio representa
-            p El 43,01% del patrimonio lo que devela que esta es una empresa productiva, aunque tiene un endeudamiento alto 71,43% y el 56,18% en obligaciones financieras a largo y corto plazo, genera utilidad y tiene el respaldo suficiente para cancelar sus obligaciones con entidades financieras que son las más costosas y riesgosas para la entidad. Y se podrían incluir muchas más dependiendo del criterio del analista financiero.
+            p El 43,01 % del patrimonio lo que devela que esta es una empresa productiva, aunque tiene un endeudamiento alto 71,43 % y el 56,18 % en obligaciones financieras a largo y corto plazo, genera utilidad y tiene el respaldo suficiente para cancelar sus obligaciones con entidades financieras que son las más costosas y riesgosas para la entidad. Y se podrían incluir muchas más dependiendo del criterio del analista financiero.
           .col-md-5.col-8.mb-md-0.mb-4.order-md-2.order-1
             img(src='@/assets/curso/tema1/img17.png')
     
@@ -317,7 +317,7 @@
             td(style="background-color: #F6F6F6;").text-end 4.000.000 
             td(style="background-color: #F6F6F6;").text-end 3,33
           tr
-            td Impuesto a la renta 35%
+            td Impuesto a la renta 35 %
             td.text-end 23.695.000 
             td.text-end 19,75
           tr
@@ -329,8 +329,8 @@
       .col-md-4.col-6.mb-md-0.mb-4
         img(src='@/assets/curso/tema1/img18.png')
       .col-md-8
-        p Para realizar el análisis vertical se debe tomar como base el valor total de las ventas equivalente al 100% y a partir de allí cada uno de los conceptos aun los resultados correspondientes a utilidad bruta, operacional y neta también deben ser divididos entre el valor en pesos de las ventas, es decir, utilidad bruta / ventas x 100 = 80.000.000 / 120.000.000 x 100 = 66,67%.
-        p.mb-0 En el análisis de porcientos o vertical del estado de resultados de la empresa Saloan, se puede evidenciar que sus costos representan el 33,33% de sus ventas generando una utilidad bruta del 66,67% equivalente a $80.000.000, así mismo, los gastos en que incurre la empresa para garantizar su actividad representan el 16,92% y el impuesto que asume la empresa equivale al 19.75% erogaciones que representan el 36,67%. Este último resultado de 36,67%, sumado al 33,33% de la utilidad neta y el 33,33% correspondiente a los costos es igual al 103,33% a este valor se le debe sustraer el 3,33% equivalente a otros ingresos que ya están adicionados y esto arroja el 100% de las ventas que corresponde a la comprobación de esta técnica el cual debe ser 100%.
+        p Para realizar el análisis vertical se debe tomar como base el valor total de las ventas equivalente al 100 % y a partir de allí cada uno de los conceptos aun los resultados correspondientes a utilidad bruta, operacional y neta también deben ser divididos entre el valor en pesos de las ventas, es decir, utilidad bruta / ventas x 100 = 80.000.000 / 120.000.000 x 100 = 66,67 %.
+        p.mb-0 En el análisis de porcientos o vertical del estado de resultados de la empresa Saloan, se puede evidenciar que sus costos representan el 33,33 % de sus ventas generando una utilidad bruta del 66,67 % equivalente a $80.000.000, así mismo, los gastos en que incurre la empresa para garantizar su actividad representan el 16,92 % y el impuesto que asume la empresa equivale al 19.75 % erogaciones que representan el 36,67 %. Este último resultado de 36,67 %, sumado al 33,33 % de la utilidad neta y el 33,33 % correspondiente a los costos es igual al 103,33 % a este valor se le debe sustraer el 3,33 % equivalente a otros ingresos que ya están adicionados y esto arroja el 100 % de las ventas que corresponde a la comprobación de esta técnica el cual debe ser 100 %.
 
     .row.mb-4(data-aos="fade-right")
       .col-auto.BG03.p-3
@@ -385,7 +385,7 @@
         td.text-end 2,88
       tr
         td Efectivo
-        td.text-end 1.200.000
+        td.text-end 1.000.000
         td.text-end 5.000.000
         td.text-end 4.000.000,00
         td(style="color: #F1592A;").text-end 400,00
@@ -412,19 +412,19 @@
         td.text-end 76.000.000
         td.text-end 76.000.000
         td.text-end -
-        td.text-end -0,00
+        td.text-end 0,00
       tr
         td Edificios
         td.text-end 100.000.000
         td.text-end 100.000.000
         td.text-end -
-        td.text-end -0,00
+        td.text-end 0,00
       tr
         td Mobiliario
         td.text-end 23.000.000
         td.text-end 23.000.000
         td.text-end -
-        td.text-end -0,00
+        td.text-end 0,00
       tr
         td Inversiones
         td.text-end 3.500.000
@@ -466,7 +466,7 @@
         td.text-end 2.500.000
         td.text-end 2.500.000
         td.text-end -
-        td.text-end -0,00
+        td.text-end 0,00
       tr
         th(style="background-color: #F6F6F6;") Pasivo no corriente
         th(style="background-color: #F6F6F6;").text-end 90.000.000,00
@@ -484,7 +484,7 @@
         td.text-end 20.000.000
         td.text-end 20.000.000
         td.text-end -
-        td.text-end -0,00
+        td.text-end 0,00
       tr
         th(style="background-color: #F6F6F6;") Patrimonio
         th(style="background-color: #F6F6F6;").text-end 54.000.000,00
@@ -526,17 +526,17 @@
     PasosA.color-primario.mb-5(tipo="l")
       .row.justify-content-center.align-items-center
         .col-md-6.col-10.order-md-1.order-2
-          p Se evidencia un incremento de 400% en efectivo, lo que corrobora la conclusión planteada en el análisis vertical, donde se específica que la empresa debe tener un compromiso próximo a cumplir, razón por la que se prefiere dejar en caja un valor que, finalizando año, podría ser invertido para obtener mayores beneficios.
+          p Se evidencia un incremento de 400 % en efectivo, lo que corrobora la conclusión planteada en el análisis vertical, donde se específica que la empresa debe tener un compromiso próximo a cumplir, razón por la que se prefiere dejar en caja un valor que, finalizando año, podría ser invertido para obtener mayores beneficios.
         .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img20.png')
       .row.justify-content-center.align-items-center
         .col-md-4.col-8.mb-md-0.mb-4(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img21.png')
         .col-md-6.col-10
-          p Se evidencia un incremento de 171,3% en inversiones en el año 2021, lo que se define como una política de inversión con el fin de obtener mejores beneficios para recuperar en algún % los efectos de la Covid-19 en el 2020.
+          p Se evidencia un incremento de 171,3 % en inversiones en el año 2021, lo que se define como una política de inversión con el fin de obtener mejores beneficios para recuperar en algún % los efectos de la Covid-19 en el 2020.
       .row.justify-content-center.align-items-center
         .col-md-6.col-10.order-md-1.order-2
-          p Se refleja un incremento de 700% en la utilidad del ejercicio, lo que evidencia que a pesar de la situación la empresa se ha enfocado en trabajar fuertemente por recuperar su nivel de productividad y, por ende, de generar utilidad. 
+          p Se refleja un incremento de 700 % en la utilidad del ejercicio, lo que evidencia que a pesar de la situación la empresa se ha enfocado en trabajar fuertemente por recuperar su nivel de productividad y, por ende, de generar utilidad. 
         .col-md-4.col-8.order-md-2.order-1.mb-md-0.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/tema1/img22.png')
       .row.justify-content-center.align-items-center
@@ -579,7 +579,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-7.col-10.mb-md-0.mb-4.order-md-1.order-2
-        p Sin embargo, se asimilan en que permiten evaluar la calidad o pertinencia de las decisiones gerenciales lo que puede definirse al evaluar la “Generación Interna de Fondos - GIF” conocida también como recursos o fondos propios que llevan ese nombre porque son producidos directamente en la actividad económica generando las posibilidades crecimiento, pago de dividendos y recuperación económica y se halla así:
+        p Sin embargo, se asimilan en que permiten evaluar la calidad o pertinencia de las decisiones gerenciales lo que puede definirse al evaluar la “Generación Interna de Fondos - GIF” conocida también como recursos o fondos propios que llevan ese nombre porque son producidos directamente en la actividad económica generando las posibilidades de crecimiento, pago de dividendos y recuperación económica y se halla así:
         .BG07.p-4
           .BG08.p-2
             p.text-bold Utilidad neta + Depreciación del período + Amortizaciones diferidas del periodo = GIF
@@ -587,7 +587,7 @@
         img(src='@/assets/curso/tema1/img25.png')
 
     p La calidad de las decisiones gerenciales relacionadas con EFAF están orientadas a realizar una eficiente gestión de los recursos que tienen una directriz y es que los fondos de corto plazo se deben aplicar o utilizar en usos de corto plazo y los fondos de largo plazo debieran financiar las aplicaciones de largo plazo.
-    p También existe el EFAF con base en los cambios en el capital de trabajo que se dedica a expresar el aumento o disminución en el capital de trabajo, que radica su limitación en que la fórmula para calcular al capital de trabajo:
+    p También existe el EFAF con base en los cambios en el capital de trabajo que se dedica a expresar el aumento o disminución en el capital de trabajo, que radica su limitación en la fórmula para calcular el capital de trabajo:
 
     .row.justify-content-center.mb-4
       .col-lg-7
@@ -688,10 +688,10 @@
               th(style="background-color: #FCC15A;") Parámetro
             tr
               td(style="background-color: #FFF;") Endeudamiento financiero
-              td.text-center(style="background-color: #FFF;") &lt; 30%
+              td.text-center(style="background-color: #FFF;") &lt; 30 %
             tr
               td(style="background-color: #F6F6F6;") Impacto de la carga financiera
-              td.text-center(style="background-color: #F6F6F6;") &lt; 10%
+              td.text-center(style="background-color: #F6F6F6;") &lt; 10 %
             tr
               td(style="background-color: #FFF;") Cobertura de intereses
               td.text-center(style="background-color: #FFF;") &#8805; 1 vez
@@ -707,7 +707,7 @@
         .col-md-5.col-10.BG09.p-0.px-0.order-md-1.order-2
           .BG04.p-2.mb-4
             h4.mb-0.mx-4 Indicadores de apalancamiento
-          p.mx-4 El apalancamiento en el entorno organizacional es una estrategia gerencial que facilita la reducción de costos con el fin de lograr una mayor rentabilidad de manera que ésta sea superior a las utilidades obtenidas con el capital propio. Existe el apalancamiento operativo o GAO, el apalancamiento financiero GAF y el apalancamiento total GAT.
+          p.mx-4 El apalancamiento en el entorno organizacional es una estrategia gerencial que facilita la reducción de costos con el fin de lograr una mayor rentabilidad de manera que esta sea superior a las utilidades obtenidas con el capital propio. Existe el apalancamiento operativo o GAO, el apalancamiento financiero GAF y el apalancamiento total GAT.
         .col-md-5.col-10.px-0.order-md-2.order-1
           img(src='@/assets/curso/tema1/img35.png')
 
@@ -722,7 +722,7 @@
               .col.mb-3.mb-sm-0
                 p Ahora, veamos representados los indicadores consolidados, para ello haz clic en el botón Descargar. 
               .col-sm-auto
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Indicadores_financieros.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
 

@@ -355,27 +355,27 @@
       tr
         td(style="background-color: #F6F6F6;") Pasivo corriente
         td(style="background-color: #F6F6F6;").text-end 25.000.000
-        td(style="background-color: #F6F6F6;").text-end 26,82%
-        td(style="background-color: #F6F6F6;").text-end 14,88%
+        td(style="background-color: #F6F6F6;").text-end 26,82 %
+        td(style="background-color: #F6F6F6;").text-end 14,88 %
         td(style="background-color: #F6F6F6;").text-end 3,99
       tr
         td Pasivo a Largo Plazo
         td.text-end 50.000.000
-        td.text-end 26,82%
-        td.text-end 29,76%
+        td.text-end 26,82 %
+        td.text-end 29,76 %
         td.text-end 7,98
       tr
         td(style="background-color: #F6F6F6;") Patrimonio
         td(style="background-color: #F6F6F6;").text-end 93.000.000
-        td(style="background-color: #F6F6F6;").text-end 29%
-        td(style="background-color: #F6F6F6;").text-end 55,36%
+        td(style="background-color: #F6F6F6;").text-end 29 %
+        td(style="background-color: #F6F6F6;").text-end 55,36 %
         td(style="background-color: #F6F6F6;").text-end 16,05
       tr
         th Totales
         th.text-end 168.000.000
         th.text-end 27,54%
-        th.text-end 100%
-        th.text-end 28,02%
+        th.text-end 100 %
+        th.text-end 28,02 %
       tr
         td(style="background-color: #F6F6F6;" colspan="5") Fuente: Propia
     
@@ -384,8 +384,8 @@
         figure.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/tema3/img22.png')
       .col-md-7.col-10
-        p Para calcular la TIO primero se investigó acerca de la tasa efectiva anual que cobran actualmente las entidades financieras siendo esta de 26,82% como la tasa de los socios debe ser superior se fija en 2,18 puntos por encima, luego se calcular el promedio realizando la sumatoria de las tasas y dividiendo en 3 que son el número de recursos registrados.  
-        p Para calcular la participación del recurso se divide el valor de cada recurso sobre el valor total convirtiendo a porcentaje ese resultado, la sumatoria de la participación debe ser igual a 100%.
+        p Para calcular la TIO primero se investigó acerca de la tasa efectiva anual que cobran actualmente las entidades financieras siendo esta de 26,82 % como la tasa de los socios debe ser superior se fija en 2,18 puntos por encima, luego se calcula el promedio realizando la sumatoria de las tasas y dividiendo en 3 que son el número de recursos registrados.  
+        p Para calcular la participación del recurso se divide el valor de cada recurso sobre el valor total convirtiendo a porcentaje ese resultado, la sumatoria de la participación debe ser igual a 100 %.
         p La ponderación se obtiene de multiplicar la tasa de cada recurso por su participación esto nos arroja un nuevo porcentaje o ponderación.
         p La interpretación de este indicador se facilita cuando hay dos o más alternativas de inversión donde se aplique y se defina cuál de ellas es la menos costosa para la organización. Sin embargo, este componente o indicador individual aporta al cálculo del EVA que se estará tratando más adelante.
 
@@ -418,26 +418,26 @@
       .col-md-5.col-8.BG01.p-4(data-aos="fade-left")
         p.mb-0 El escenario actual de la empresa es:
         p.mb-0 #[strong Ventas]: 3333 unidades/año
-        p.mb-0 #[strong Precio de Venta]: $15.000
+        p.mb-0 #[strong Precio de venta]: $15.000
         p.mb-0 #[strong Costo de producción]: $12.000
         p.mb-0 #[strong Depreciación]: $12'000.000
-        p.mb-0 #[strong Gastos de administración]: 15% sobre ventas
+        p.mb-0 #[strong Gastos de administración]: 15 % sobre ventas
         p.mb-0 #[strong Inversión]: $100'000.000
-        p.mb-0 #[strong Recursos Propios]: el 60% de la inversión
-        p.mb-0 #[strong Momento de la Inversión]: año 3
-        p.mb-0 A partir del año 4 se reducen los costos de producción en 50%
-        p.mb-0 #[strong Valor en Libros]: $4'000.000
-        p.mb-0 #[strong Venta de Activo]: $8'000.000
-        p.mb-0 Incremento de ventas a partir del año 4 en 50%
-        p.mb-0 #[strong Impuesto]: 35%
+        p.mb-0 #[strong Recursos propios]: el 60 % de la inversión
+        p.mb-0 #[strong Momento de la inversión]: año 3
+        p.mb-0 A partir del año 4 se reducen los costos de producción en 50 %
+        p.mb-0 #[strong Valor en libros]: $4'000.000
+        p.mb-0 #[strong Venta de activo]: $8'000.000
+        p.mb-0 Incremento de ventas a partir del año 4 en 50 %
+        p.mb-0 #[strong Impuesto]: 35 %
         p.mb-0 #[strong Préstamo]: $40'000.000
-        p.mb-0 #[strong i]: 26,82% E.A.
+        p.mb-0 #[strong i]: 26,82 % E.A.
         p.mb-0 #[strong n]: 4 años
         p.mb-0 #[strong A]: $xxx? Anual
-        p.mb-0 #[strong TIO]: 29%
+        p.mb-0 #[strong TIO]: 29 %
         p.mb-0 #[strong Hallar]: VPN, TIR y Serie de cuotas anuales y conclusión.
         
-    p Para desarrollar el ejercicio se debe elaborar la tabla de amortización de la obligación. En este caso no se requiere realizar la conversión de tasa de interés porque la cancelación se realizará con 1 cuota anual durante 4 años; por tanto, se utiliza una tasa del 26,82% EA.
+    p Para desarrollar el ejercicio se debe elaborar la tabla de amortización de la obligación. En este caso no se requiere realizar la conversión de tasa de interés porque la cancelación se realizará con 1 cuota anual durante 4 años; por tanto, se utiliza una tasa del 26,82 % EA.
     p Para construir la tabla del crédito se necesita conocer al valor de la cuota en los términos del crédito, así:
 
     .row.justify-content-center.mb-4
@@ -460,11 +460,11 @@
             td(style="background-color: #F6F6F6;").text-end -
             td(style="background-color: #F6F6F6;").text-end -
             td(style="background-color: #F6F6F6;").text-end -
-            td(style="background-color: #F6F6F6;").text-end -
+            td(style="background-color: #F6F6F6;").text-end 40.000.000,00
           tr
             td.text-center 1
             td.text-end 17.489.077,31
-            td.text-end 10.728.000
+            td.text-end 10.728.000,00
             td.text-end 6.761.077,31
             td.text-end 33.238.922,69
           tr
@@ -503,14 +503,14 @@
         th(style="background-color: #FCC15A;").text-center Año 4
         th(style="background-color: #FCC15A;").text-center Año 5
       tr
-        td(style="background-color: #3AE3FE;").text-center =
-        td Ingresos sujetos a impuestos
-        td.text-end 
-        td.text-end 49.995.000,00
-        td.text-end 49.995.000,00
-        td.text-end 49.995.000,00
-        td.text-end 74.992.500,00
-        td.text-end 74.992.500,00
+        td.text-bold(style="background-color: #3AE3FE;").text-center =
+        td.text-bold Ingresos sujetos a impuestos
+        td.text-bold.text-end 
+        td.text-bold.text-end 49.995.000,00
+        td.text-bold.text-end 49.995.000,00
+        td.text-bold.text-end 49.995.000,00
+        td.text-bold.text-end 74.992.500,00
+        td.text-bold.text-end 74.992.500,00
       tr
         td(style="background-color: #3AE3FE;").text-center +
         td(style="background-color: #F6F6F6;") Venta de activo
@@ -566,14 +566,14 @@
         td.text-end 
         td.text-end
       tr
-        td(style="background-color: #3AE3FE;").text-center =
-        td(style="background-color: #F6F6F6;") Resultado antes de impuesto
-        td(style="background-color: #F6F6F6;").text-end
-        td(style="background-color: #F6F6F6;").text-end -20.228.250,00
-        td(style="background-color: #F6F6F6;").text-end -18.414.929,07
-        td(style="background-color: #F6F6F6;").text-end -12.115.275,46
-        td(style="background-color: #F6F6F6;").text-end 31.796.645,25
-        td(style="background-color: #F6F6F6;").text-end 35.495.250,00
+        td(style="background-color: #3AE3FE;").text-bold.text-center =
+        td(style="background-color: #F6F6F6;").text-bold Resultado antes de impuesto
+        td(style="background-color: #F6F6F6;").text-bold.text-end
+        td(style="background-color: #F6F6F6;").text-bold.text-end -20.228.250,00
+        td(style="background-color: #F6F6F6;").text-bold.text-end -18.414.929,07
+        td(style="background-color: #F6F6F6;").text-bold.text-end -12.115.275,46
+        td(style="background-color: #F6F6F6;").text-bold.text-end 31.796.645,25
+        td(style="background-color: #F6F6F6;").text-bold.text-end 35.495.250,00
       tr
         td.text-center(style="background-color: #3AE3FE;") -
         td Impuesto
@@ -584,14 +584,14 @@
         td.text-end -11.128.825,84
         td.text-end -12.423.337,50
       tr
-        td(style="background-color: #3AE3FE;").text-center =
-        td(style="background-color: #F6F6F6;") Resultado neto
-        td(style="background-color: #F6F6F6;").text-end
-        td(style="background-color: #F6F6F6;").text-end -27.308.137,50
-        td(style="background-color: #F6F6F6;").text-end -24.860.154,24
-        td(style="background-color: #F6F6F6;").text-end -16.355.621,87
-        td(style="background-color: #F6F6F6;").text-end 20.667.819,41
-        td(style="background-color: #F6F6F6;").text-end 23.071.912,50
+        td(style="background-color: #3AE3FE;").text-bold.text-center =
+        td(style="background-color: #F6F6F6;").text-bold Resultado neto
+        td(style="background-color: #F6F6F6;").text-bold.text-end
+        td(style="background-color: #F6F6F6;").text-bold.text-end -27.308.137,50
+        td(style="background-color: #F6F6F6;").text-bold.text-end -24.860.154,24
+        td(style="background-color: #F6F6F6;").text-bold.text-end -16.355.621,87
+        td(style="background-color: #F6F6F6;").text-bold.text-end 20.667.819,41
+        td(style="background-color: #F6F6F6;").text-bold.text-end 23.071.912,50
       tr
         td.text-center(style="background-color: #3AE3FE;") +
         td Depreciación
@@ -647,14 +647,14 @@
         td(style="background-color: #F6F6F6;")
         td(style="background-color: #F6F6F6;").text-end 0,00
       tr
-        td.text-center(style="background-color: #3AE3FE;") =
-        td Flujo de caja
-        td.text-end 
-        td.text-end -14.989.327,31
-        td.text-end -14.989.327,32
-        td.text-end -66.989.327,31
-        td.text-end 30.006.172,66
-        td.text-end 47.495.250,00
+        td.text-bold.text-center(style="background-color: #3AE3FE;") =
+        td.text-bold Flujo de caja
+        td.text-bold.text-end 
+        td.text-bold.text-end -14.989.327,31
+        td.text-bold.text-end -14.989.327,32
+        td.text-bold.text-end -66.989.327,31
+        td.text-bold.text-end 30.006.172,66
+        td.text-bold.text-end 47.495.250,00
 
     SlyderA.mb-4(tipo="b")
       .row.justify-content-center
@@ -664,7 +664,7 @@
           p.mb-0.text-bold VPN = - 100.000.000 + (-14.989.327,31/(1 + ,29)1) + (-14.989.327,32/(1 + .29)2) + (-66.989.327,31/(1 + i)3) + (30.006.172,66/(1 + ,29)4) +(47.495.250/(1 + ,29)5)
           p.mb-0.text-bold VPN = - 100.000.000 + (-11.619.633,57) + (-9.007.467.89) + (-31.205.588,71) + (10.835.570)+(13.294.566,9)
           p.mb-0.text-bold VPN = -127.702.553,3 
-          p Según el indicador de VPN en el escenario que se plantea el proyecto y con una TIO de 29% en un horizonte de 5 años se debe rechazar el proyecto, si se revisa el flujo de caja la empresa se debe enfrentar a otras fuentes de financiación para ejecutar este proyecto, pero los resultados propuestos, según el flujo de caja son apropiados, es decir, el incremento en las ventas y la reducción de costos pero el proyecto en actuales condiciones requiere un horizonte más amplio para arrojar resultados beneficios para la empresa.
+          p Según el indicador de VPN en el escenario que se plantea el proyecto y con una TIO de 29 % en un horizonte de 5 años se debe rechazar el proyecto, si se revisa el flujo de caja la empresa se debe enfrentar a otras fuentes de financiación para ejecutar este proyecto, pero los resultados propuestos, según el flujo de caja son apropiados, es decir, el incremento en las ventas y la reducción de costos pero el proyecto en actuales condiciones requiere un horizonte más amplio para arrojar resultados beneficiosos para la empresa.
       .row.justify-content-center
         .col-11.BG01.p-4.mx-4
           p.mb-0.text-bold TIR = - I0 +(F/(1 + i)n) + (F/(1 + i)n) + (F/(1 + i)n)…
@@ -673,7 +673,7 @@
           p.mb-0.text-bold TIR = -127.904.000
       .row.justify-content-center
         .col-11.BG01.p-4.mx-4
-          p.mb-0 De acuerdo con el resultado de la TIR se confirma la conclusión dada con la aplicación del VPN si la empresa cuenta con fuentes para asumir el proyecto en las condiciones planteadas, puede ejecutar el proyecto si y solo si amplía el horizonte del proyecto.
+          p.mb-0 De acuerdo con el resultado de la TIR se confirma la conclusión dada con la aplicación del VPN si la empresa cuenta con fuentes para asumir el proyecto en las condiciones planteadas, puede ejecutar el proyecto sí y solo sí amplía el horizonte del proyecto.
 
     .row.mb-4(data-aos="fade-right")
       .col-auto.BG03.p-3
