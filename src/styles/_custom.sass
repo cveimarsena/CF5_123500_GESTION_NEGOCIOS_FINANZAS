@@ -2,8 +2,8 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    left: 10%
+    top: 20%
+    left: 20%
   &-2
     animation: float2 5s ease-in-out infinite alternate
     position: absolute
@@ -18,7 +18,7 @@
     animation: float1 5s ease-in-out infinite alternate
     position: absolute
     top: 70%
-    right: 40%
+    right: 20%
 
 
 @keyframes float1
@@ -52,7 +52,7 @@
   background-color: #F6F6F6
 
 .BG02
-  background-color:#FEE9C5
+  background-color:#E1EFE3
   border-radius: 15px
 
 .BG03
@@ -62,12 +62,17 @@
   background-color: #E1EFE3
 
 .BG05
-  border-left: solid 5px #3AE3FE
-  background-color: #F6F6F6
+  //border-left: solid 5px #3AE3FE
+  //background-color: #F6F6F6
+  background-image: url("../assets/curso/tema1/img19-1.png")
+  background-repeat: no-repeat
+  
 
 .BG06
-  border-left: solid 5px #359547
-  background-color: #F6F6F6
+  //border-left: solid 5px #359547
+  //background-color: #F6F6F6
+  background-image: url("../assets/curso/tema1/img19-2.png")
+  background-repeat: no-repeat
 
 .BG07
   background-color: #E1FBFF
@@ -79,23 +84,28 @@
   background-color: #F8FBF8
 
 .BG10
-  border-top: solid 8px #3AE3FE
-  background-color: #F6F6F6
+  //border-top: solid 8px #3AE3FE
+  //background-color: #F6F6F6
+  background-image: url("../assets/curso/tema2/bg10.png")
 
 .BG11
-  border-top: solid 8px #FCC15A
-  background-color: #F6F6F6
+  //border-top: solid 8px #FCC15A
+  //background-color: #F6F6F6
+  background-image: url("../assets/curso/tema2/bg11.png")
 
 .BG12
-  border-top: solid 8px #359547
-  background-color: #F6F6F6
+  //border-top: solid 8px #359547
+  //background-color: #F6F6F6
+  background-image: url("../assets/curso/tema2/bg12.png")
 
 .BG13
-  border-top: solid 8px #03386E
-  background-color: #F6F6F6
+  //border-top: solid 8px #03386E
+  //background-color: #F6F6F6
+  background-image: url("../assets/curso/tema2/bg13.png")
 
 .BG14
-  background-color: #03386E
+  //background-color: #03386E
+  background-image: url("../assets/curso/tema2/bg14.png") 
 
 .BG15
   height: 100%
@@ -155,3 +165,19 @@
 .fa-check-circle:before
   color: #F7A491
 
+//CONTROLAR LAS IMAGENES EN MOVIL
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+  .mts
+    margin-top: 0.25rem  
+ 
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+  .mts
+    margin-top: -1.35rem

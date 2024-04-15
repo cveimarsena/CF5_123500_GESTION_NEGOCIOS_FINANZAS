@@ -32,9 +32,12 @@
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
           h5 Figura 1
           span Métodos de análisis
-      .col-12
+      .col-12.desktop
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img03.svg')
+          img(src="@/assets/curso/tema1/img03.svg", alt="")
+      .col-12.movil
+        figure(data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/img03-1.svg", alt="")
           figcaption.text-center Nota. Tomada de Calvo (2019).
       
     p.mb-5 El análisis financiero no tiene un procedimiento predeterminado, este se realiza teniendo en cuenta el cálculo de  los valores porcentuales y hallando la variación absoluta y relativa, para utilizar tantos indicadores sea necesario, de esta manera se da a conocer las etapas para un análisis financiero:
@@ -103,32 +106,32 @@
         th(style="background-color: #E1EFE3;").text-end 100,00 <br> 5,30
         th(style="background-color: #F6F6F6;") Pasivo <br>Corriente
         th(style="background-color: #F6F6F6;").text-end 114.500.000,00 <br>44.500.000
-        th(style="background-color: #FFDDBC;").text-end 100,00 <br>38,86
+        th(style="background-color: #E8E8E8;").text-end 100,00 <br>38,86
       tr
         td Efectivo
         td.text-end 5.000.000
-        td(style="background-color: #FEF5E5;").text-end 45,45
+        td(style="background-color: #F3F9FF;").text-end 45,45
         td Obligaciones financieras
         td.text-end 25.000.000
         td(style="background-color: #E1FBFF;").text-end 56,18
       tr
         td Cuentas por cobrar
         td.text-end 3.500.000
-        td(style="background-color: #FEF5E5;").text-end 31,82
+        td(style="background-color: #F3F9FF;").text-end 31,82
         td Proveedores
         td.text-end 5.000.000
         td(style="background-color: #E1FBFF;").text-end 11,24
       tr
         td Inventario
         td.text-end 2.500.000
-        td(style="background-color: #FEF5E5;").text-end 22,73
+        td(style="background-color: #F3F9FF;").text-end 22,73
         td Acreedores
         td.text-end 12.000.000
         td(style="background-color: #E1FBFF;").text-end 26,97
       tr
         th Total activo circulante
         th
-        th(style="background-color: #FEF5E5;").text-end 100,00
+        th(style="background-color: #F3F9FF;").text-end 100,00
         td Pasivos por impuestos
         td.text-end 2.500.000
         td(style="background-color: #E1FBFF;").text-end 5,62
@@ -144,7 +147,7 @@
         th(style="background-color: #E1EFE3;").text-end 94,70
         th(style="background-color: #F6F6F6;") Pasivo <br>no corriente
         th(style="background-color: #F6F6F6;").text-end 70.000.000
-        th(style="background-color: #FFDDBC;").text-end 61,14
+        th(style="background-color: #E8E8E8;").text-end 61,14
       tr
         td Terrenos
         td.text-end 76.000.000
@@ -183,27 +186,27 @@
         td(style="background-color: #E1FBFF;").text-end 100,00
         th Capital
         th.text-end 24.000.000,00 
-        th.text-end(style="background-color: #FDE5FF;") 25,81
+        th.text-end(style="background-color: #F3F9FF;") 25,81
       tr
         td(colspan="3")
         th Reservas legales
         th.text-end 4.000.000,00 
-        th.text-end(style="background-color: #FDE5FF;") 4,30
+        th.text-end(style="background-color: #F3F9FF;") 4,30
       tr
         td(colspan="3")
         th Utilidad del ejercicio
         th.text-end 40.000.000,00 
-        th.text-end(style="background-color: #FDE5FF;") 43,01
+        th.text-end(style="background-color: #F3F9FF;") 43,01
       tr
         td(colspan="3")
         th Utilidades acumuladas
         th.text-end 25.000.000,00 
-        th.text-end(style="background-color: #FDE5FF;") 26,88
+        th.text-end(style="background-color: #F3F9FF;") 26,88
       tr
         td(colspan="3")
         td Total pasivo + patrimonio
         td.text-end 207.500.000,00  
-        td.text-end(style="background-color: #FDE5FF;") 100,00
+        td.text-end(style="background-color: #F3F9FF;") 100,00
 
     .row.justify-content-center.mb-4
       .col-md-5.col-10.mb-md-0.mb-4(data-aos="fade-right")
@@ -264,7 +267,7 @@
             p Que el estado de situación financiera se puede concluir que en esta sociedad su capital está representado por acciones por eso tiene una política de dividendos o beneficios a entregar a los inversionistas.
           .col-md-5.col-8.mb-md-0.mb-4.order-md-2.order-1
             img(src='@/assets/curso/tema1/img16.png')
-      .tarjeta.color-acento-botones--borde.p-4(titulo="h) Se puede observar que la utilidad del ejercicio representa")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="h) Se puede observar que")
         .row.justify-content-center
           .col-md-5.col-10.mb-md-0.mb-4.order-md-1.order-2
             h4 Se puede observar que la utilidad del ejercicio representa
@@ -284,7 +287,7 @@
           table
             thead
               tr
-                td(style="font-size: 18px; background-color: #FEFBF6;").text-center.text-bold Saloan 
+                td(style="font-size: 18px; background-color: #3AE3FE;").text-center.text-bold Saloan 
                   p.text-bold Estado de situación financiera del 1 de enero de 2021 a 31 de diciembre de 2021
                   p.text-bold valores en pesos ($)
         table.mb-4(data-aos="fade-right")
@@ -337,13 +340,14 @@
         h4.mb-0 Análisis financiero comparativo u horizontal
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-md-5.col-6.mb-md-0.mb-4(data-aos="fade-right")  
-        img(src='@/assets/curso/tema1/img19.png')
-      .col-md-5(data-aos="fade-left")
+      .col-lg-4.col-md-4.col-6.mb-md-0.mb-4(data-aos="fade-right")  
+        img(src='@/assets/curso/tema1/img19.svg')
+      .col-lg-6.col-md-6(data-aos="fade-left")
         .BG05.p-4.mb-4
           p Este análisis se realiza para conocer la solidez de la empresa en cuanto a sus activos, patrimonio y respecto de las políticas organizacionales lo que se evidencia en las variaciones que se hallen por rubro y su incremento o decremento de un período a otro. Este análisis se realiza con los resultados financieros de, al menos, dos periodos o vigencias diferentes. 
         .BG06.p-4.mb-4
           p Este análisis es dinámico gracias a que se enfoca en las modificaciones notorias que presentan los rubros de un periodo a otro. Es necesario anotar que este tiene en cuenta las variaciones absolutas o en pesos ($), así como las variaciones relativas o porcentuales (%).
+          br
 
     p Para realizar este análisis horizontal es necesario identificar el periodo o vigencia más reciente como “B”, el periodo anterior o más antiguo como “A”, la variación absoluta arrojará resultados en pesos ($) cuyo valor puede ser positivo si el rubro ha incrementado o negativo si el rubro ha disminuido. En cuanto a la variación relativa se refiere a (%) esta se calcula tomando la variación absoluta obtenida y dividiéndola en el valor en pesos correspondiente al mismo rubro en el año o vigencia anterior.
 
@@ -367,10 +371,10 @@
         th VARIACIÓN RELATIVA
       tr
         th
-        th(style="background-color: #FCC15A;") A
-        th(style="background-color: #FCC15A;") B
-        th(style="background-color: #FCC15A;") (B -A)
-        th(style="background-color: #FCC15A;") VA/A
+        th(style="background-color: #D2E1F1;") A
+        th(style="background-color: #D2E1F1;") B
+        th(style="background-color: #D2E1F1;") (B -A)
+        th(style="background-color: #D2E1F1;") VA/A
       tr
         th(style="background-color: #F6F6F6;") Activo
         th(style="background-color: #F6F6F6;").text-end 201.700.000,00
@@ -523,7 +527,7 @@
     
     p De esta manera, se realiza el cálculo para obtener variaciones absolutas y relativas y se puede concluir lo siguiente:
 
-    PasosA.color-primario.mb-5(tipo="l")
+    PasosA.color-acento-contenido.mb-5(tipo="l")
       .row.justify-content-center.align-items-center
         .col-md-6.col-10.order-md-1.order-2
           p Se evidencia un incremento de 400 % en efectivo, lo que corrobora la conclusión planteada en el análisis vertical, donde se específica que la empresa debe tener un compromiso próximo a cumplir, razón por la que se prefiere dejar en caja un valor que, finalizando año, podría ser invertido para obtener mayores beneficios.
@@ -584,7 +588,7 @@
           .BG08.p-2
             p.text-bold Utilidad neta + Depreciación del período + Amortizaciones diferidas del periodo = GIF
       .col-md-3.col-6.order-md-2.order-1(data-aos="fade-left")
-        img(src='@/assets/curso/tema1/img25.png')
+        img(src='@/assets/curso/tema1/img25.svg')
 
     p La calidad de las decisiones gerenciales relacionadas con EFAF están orientadas a realizar una eficiente gestión de los recursos que tienen una directriz y es que los fondos de corto plazo se deben aplicar o utilizar en usos de corto plazo y los fondos de largo plazo debieran financiar las aplicaciones de largo plazo.
     p También existe el EFAF con base en los cambios en el capital de trabajo que se dedica a expresar el aumento o disminución en el capital de trabajo, que radica su limitación en la fórmula para calcular el capital de trabajo:
@@ -608,7 +612,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5.col-8(data-aos="fade-left")
-        img(src='@/assets/curso/tema1/img28.png')
+        img(src='@/assets/curso/tema1/img28.svg')
       .col-md-7.col-10.mb-md-0.mb-4
         p Estas son notas o narraciones que deben ser claras y concretas, estar numeradas o claramente identificadas en orden secuencial. Las notas, son parte integral de todos y cada uno de los estados financieros, partidas extraordinarias, primas de descuentos causados pendientes de amortizar. La información suministrada debe cumplir con el fundamento de la información financiera, las descripciones de esta deben ser útiles, gracias a su concepción, identificación y valuación de los componentes de los estados financieros, y en especial del capital y su protección.
         p Las revelaciones cobran vital importancia en la gestión financiera gracias a que influyen en la toma de decisiones por las partes interesadas de la información tomando un carácter predictivo, confirmatorio o ambos. Pero la descripción o inclusión inapropiada de la información financiera y sus revelaciones pueden influir en decisiones erróneas por parte de los usuarios de la información.
@@ -643,9 +647,9 @@
       h2 1.2. Indicadores financieros       
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-5.col-8(data-aos="fade-left")
+      .col-md-5.col-4(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img29.png')
-      .col-md-7.col-10.mb-md-0.mb-4
+      .col-md-7.col-8.mb-md-0.mb-4
         p Los indicadores financieros son instrumentos que facilitan el análisis financiero al comparar datos diferentes lo que hace que también se les conozca como razones financieras, por medio de ellos se identifican puntos fuertes y débiles de la empresa y comparados con periodos o resultados anteriores permiten determinar probabilidades y tendencias. Aportan a realizar una comparación lógica; es decir, dentro de datos que tengan relación o que cuenten con las mismas características, lo que daría lugar a realizar comparaciones para determinar su incremento, variación, decremento y el impacto que estas han generado en la organización.
         p A continuación, se realiza una presentación generalizada de estos indicadores, los cuales cumplen una función específica y permiten realizar hallazgos determinantes para la organización:
     

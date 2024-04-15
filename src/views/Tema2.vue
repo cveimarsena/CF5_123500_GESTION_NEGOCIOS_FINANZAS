@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 2
       h1 Matemática financiera
-
+    
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.col-6.order-lg-1.order-2(data-aos="fade-right")
         .BG10.p-4.mb-4
@@ -15,6 +15,8 @@
         .BG11.p-4
           h4 Análisis financiero
           p Esta ciencia aporta al análisis financiero, al permitir determinar el costo de una decisión de financiación, determinar la rentabilidad a recibir en un lapso por una inversión, definir una apropiada política de descuento orientada a los clientes.
+          br
+          br
       .col-lg-6.col-md-10.order-lg-2.order-1(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/tema2/img01.png')
@@ -30,9 +32,11 @@
         .BG12.p-4.mb-4
           h4 Gestión apropiada de los costos
           p Seleccionar la mejor alternativa para la amortización de obligaciones de acuerdo con la liquidez de la empresa, hallar el costo de capital, aportar a una gestión apropiada de los costos y contar con las herramientas para evaluar un proyecto.
+          br
         .BG13.p-4
           h4 Valor del dinero en el tiempo
           p Uno de esos conceptos que trata esta ciencia se origina en el valor del dinero en el tiempo, este pierde su valor al transcurrir el tiempo cuando la inflación hace que se desvalorice, lo que influye en la decisión de recibir el dinero hoy o esperar hasta recibirlo en un tiempo determinado.
+          br
 
     .row.justify-content-center.mb-4
       .col-md-10
