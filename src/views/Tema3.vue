@@ -721,7 +721,6 @@
               p Son factores positivos o negativos en el medio o entorno donde se pretende implementar un proyecto, y se consideran también con los efectos positivos y negativos que pudieran ocasionar. Dentro de ellos se reconoce la política económica y social.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img29.png')})`}")
 
-
 </template>
 
 <script>
